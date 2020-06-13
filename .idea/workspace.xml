@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cb5414e-a2f1-4b9c-b6f7-f126e0ddfdb7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/mateusziasia/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/mateusziasia/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/mateusziasia/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/mateusziasia/HibernateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/mateusziasia/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/mateusziasia/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/mateusziasia/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/mateusziasia/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/mateusziasia/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/mateusziasia/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/mateusziasia/HibernateUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,9 +58,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.firstOwnApp [clean]">
+  <component name="RunManager" selected="Application.HibernateUtil">
+    <configuration name="HibernateUtil" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.mateusziasia.HibernateUtil" />
+      <module name="firstOwnApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="pl.mateusziasia.HibernateUtil" />
+      <module name="firstOwnApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,6 +122,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.HibernateUtil" />
       <item itemvalue="Maven.firstOwnApp []" />
       <item itemvalue="Maven.firstOwnApp [clean]" />
     </list>
@@ -135,6 +143,14 @@
       <option name="presentableId" value="Default" />
       <updated>1591907508730</updated>
     </task>
+    <task id="LOCAL-00001" summary="Very important changes my friend!">
+      <created>1592062816173</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592062816173</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,5 +163,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Very important changes my friend!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Very important changes my friend!" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/mateusziasia/HibernateUtil.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

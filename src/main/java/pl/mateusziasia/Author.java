@@ -21,7 +21,7 @@ public class Author {
     @Enumerated(EnumType.STRING)
     private String country;
 
-    @ManyToMany(mappedBy = "authors")
+    @ManyToMany(mappedBy = "authors" ,fetch = FetchType.LAZY)
     private List<Book> books;
 
     public String getCountry() {

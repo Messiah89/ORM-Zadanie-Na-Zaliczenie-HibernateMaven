@@ -30,7 +30,7 @@ public class Book {
     @JoinColumn(name = "LIBRARY_ID")
     private Library library;
 
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.LAZY)
     private List<Author> authors;
 
     public List<Author> getAuthors() {

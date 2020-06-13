@@ -6,6 +6,8 @@ import pl.mateusziasia.Author;
 import pl.mateusziasia.Book;
 import pl.mateusziasia.Address;
 
+import java.time.LocalDateTime;
+
 public class HibernateUtil {
 
     public static void main (String[] args) {
@@ -24,7 +26,7 @@ public class HibernateUtil {
         Author author = new Author();
         author.setFirstName("Henryk");
         author.setLastName("Sienkiewicz");
-        author.setcountry("Polska");
+        author.setCountry("Polska");
 
         Book book = new Book();
         book.setTitle("Ogniem i Mieczem");

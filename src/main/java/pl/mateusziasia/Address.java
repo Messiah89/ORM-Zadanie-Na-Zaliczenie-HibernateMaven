@@ -1,13 +1,14 @@
 package pl.mateusziasia;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.List;
 
 @Embeddable
 public class Address {
 
     @ElementCollection
-    @CollectionTable(name="AUTHOR_ADRESS", joinColumns = @JoinColumn(name="AUTHOR_ID"))
+    @CollectionTable(name="AUTHOR_ADDRESS", joinColumns = @JoinColumn(name="AUTHOR_ID"))
     private List<Address> Address = new ArrayList<Address>();
 
     @Id

@@ -24,6 +24,12 @@ public class Book {
     private String Description;
 
     @Temporal(TemporalType.TIMESTAMP)
+    @Column(name = "CREATED_AT",
+            unique = false,
+            nullable = false,
+            insertable = true,
+            updatable = false
+    )
     private LocalDateTime IssueDate;
 
     @ManyToOne

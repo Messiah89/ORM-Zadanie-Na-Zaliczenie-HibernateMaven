@@ -3,14 +3,13 @@ package pl.mateusziasia;
 import javax.persistence.*;
 import java.util.List;
 
+
 @Entity
 @Table(name = "AUTHOR")
 public class Author {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long Id;
-
-
 
     @Column(name = "FIRST_NAME")
     private String FirstName;
@@ -19,16 +18,16 @@ public class Author {
     private String LastName;
 
     @Enumerated(EnumType.STRING)
-    private String country;
+    private Country country;
 
     @ManyToMany(mappedBy = "authors" ,fetch = FetchType.LAZY)
     private List<Book> books;
 
-    public String getCountry() {
+    public Country getCountry() {
         return country;
     }
 
-    public void setCountry(String country) {
+    public void setCountry(Country country) {
         this.country = country;
     }
 
